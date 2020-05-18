@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+}
+.wrapper {
+    flex-direction: column;
+    height: 100vh;
+}
+.main-section-hero {
+    background: url(/assets/img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper  .main-section-hero{
+  flex: 5;
+ 
+  flex-direction: column;
+}
+.wrapper  .main-section-hero header {
+flex: 1.3;
+
+justify-content: center;
+align-items: flex-end;
+
+}
+
+.wrapper  .main-section-hero main {
+flex: 3;
+
+}
+
+.wrapper aside {
+    flex: 2;
+  
+}
+
+.wrapper footer {
+    flex: .5;
+    
+}
+
+footer {
+    justify-content: space-between;
+}
+
+.main-section-hero header ul {
+    height: 35px;
+    flex-basis: 50px;
+    margin: 0 1rem;
+    flex:1;
+    border-radius: 4px;
+   
+}
+
+.main-section-hero header ul li{
+  text-align: center;
+  flex: 1;
+  margin: 0 1px;
+  height: 100%;
+  background: rgb(117,117,117);
+  background: linear-gradient(180deg, rgba(117,117,117,1) 0%, rgba(60,60,60,1) 50%, rgba(54,54,54,1) 86%);
+
+
+    
+}
+
+.main-section-hero header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+aside div {
+ flex: 1;
+}
+
+aside div a {
+    display:  block;
+    height: 100%;
+}
+
+aside .first {
+background: #fff url(/assets/img/image1.jpg) 0 0 no-repeat;
+background-size: cover;
+border-right: 3px solid white;
+
+}
+aside .second {
+background: #fff url(/assets/img/image2.jpg) 0 0 no-repeat;
+background-size: cover;
+border-right: 3px solid white;
+}
+
+aside .third {
+background: #fff url(/assets/img/image3.jpg) 0 0 no-repeat;
+background-size: cover;
+border-right: 3px solid white;
+}
+
+aside .fourth {
+background: #fff url(/assets/img/image4.jpg) 0 0 no-repeat;
+background-size: cover;
+}
+
+footer {
+    padding: 2rem 2rem;
+    line-height: 2.5rem;
+}
