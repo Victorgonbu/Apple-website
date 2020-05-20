@@ -132,6 +132,7 @@ i.fas.fa-search {
   background: linear-gradient(0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141));
   border: 1px solid rgb(121, 121, 121);
   border-radius: 10px;
+  box-shadow: 1px -1px 1px;
   width: 90%;
   margin: 0 auto;
   background-image: url(../img/search.PNG);
