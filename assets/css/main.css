@@ -208,6 +208,12 @@ aside .fourth {
 
 footer .copyright {
   flex: 1;
+  margin-right: 3%;
+}
+
+footer .copyright.flex {
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 footer .extra-links {
