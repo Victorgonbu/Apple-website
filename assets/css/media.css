@@ -1,0 +1,16 @@
+@media all and (max-width: 1366px) {
+  .hero-text h1 {
+    font-size: 3em;
+    padding-bottom: 0.3em;
+  }
+
+  .hero-text p {
+    font-size: 1.7em;
+  }
+
+  .hero-text span a {
+    font-size: 1.25em;
+    display: inline-block;
+    padding-top: 0.5em;
+  }
+}
