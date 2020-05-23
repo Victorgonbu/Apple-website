@@ -14,7 +14,7 @@ This web page is developed by HTML5 and CSS only, without using any framework or
 
 ## Live Demo
 
-Comming soon...
+https://shaqri.github.io/Apple-website/index.html
 
 ## Getting Started
 
